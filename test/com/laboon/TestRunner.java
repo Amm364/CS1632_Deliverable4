@@ -16,6 +16,7 @@ public class TestRunner {
 	classesToTest.add(ProgramStackTest.class);
 	classesToTest.add(ProgramAreaTest.class);
 	classesToTest.add(ProgramExecutorTest.class);
+	classesToTest.add(PinningTests.class);
 	
 	// For all test classes added, loop through and use JUnit
 	// to run them.
